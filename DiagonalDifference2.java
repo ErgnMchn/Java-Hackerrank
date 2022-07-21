@@ -14,7 +14,7 @@ class Result {
     public static int diagonalDifference(List<List<Integer>> arr) {
         int sumFirst = 0;
         int sumSecond = 0;
-        int array[][] = new int[arr.size()][arr.size()];
+        
         for(int i=0;i<arr.size();i++){
             sumFirst += arr.get(i).get(i);
             sumSecond += arr.get(i).get(arr.size()-1-i);
